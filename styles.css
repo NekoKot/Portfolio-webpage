@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  min-width: 438px;
 }
 
 #navbar {
@@ -85,6 +86,7 @@ body {
   grid-gap: 40px;
   width: 100%;
   max-width: 1280px;
+  min-width: none;
   margin: 70px auto 0 auto;
   text-align: center;
 }
@@ -176,15 +178,9 @@ body {
   vertical-align: middle;
 }
 
-/*
-.nav-link {
-margin-top: 15px;
-transition-property: transform;
-transition-duration: 0.3s;
-transition-timing-function: ease-out;
-transition-delay: 0s
+.nav-link:hover {
+  color: #be3144;
 }
-*/
 
 #line-red {
   border: 2px solid #be3144;
